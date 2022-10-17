@@ -1,0 +1,32 @@
+body {
+    background-color: #d3d3d3;
+    display: flex;
+    align-content: center;
+}
+#gameBoard {
+    align-items: center;
+}
+table {
+    /* width: 350px; */
+    /* height: 350px; */
+    flex-wrap: wrap;
+    align-items: center;
+}
+tr {
+    /* width: 300px; */
+    /* height: 100px; */
+    background-color: beige;
+}
+td {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+#button {
+
+    background-color: black;
+}
+#lighter {
+    background-color: grey;
+}
