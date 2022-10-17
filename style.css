@@ -1,32 +1,31 @@
 body {
     background-color: #d3d3d3;
     display: flex;
-    align-content: center;
+    justify-content: center;
 }
-#gameBoard {
-    align-items: center;
-}
-table {
-    /* width: 350px; */
-    /* height: 350px; */
+.gameBoard {
+    width: 560px;
+    margin-top: 100px;
     flex-wrap: wrap;
-    align-items: center;
 }
-tr {
-    /* width: 300px; */
-    /* height: 100px; */
-    background-color: beige;
+
+#row {
+    /* background-color: beige; */
+    display: flex;
+    flex-direction: row;
 }
-td {
+
+.darker {
     width: 100px;
     height: 100px;
     padding: 10px;
     margin: 10px;
-}
-#button {
-
     background-color: black;
 }
-#lighter {
+.lighter {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
     background-color: grey;
 }
